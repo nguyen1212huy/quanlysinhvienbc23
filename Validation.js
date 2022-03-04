@@ -52,6 +52,9 @@ function Validation () {
         document.querySelector(selectorError).innerHTML = '';
         return true;
     }
+    this.kieTraDevB = function (){
+        console.log('kiểm tra dev b');
+    }
 
 }
 
