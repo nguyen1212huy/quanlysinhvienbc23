@@ -52,6 +52,9 @@ function Validation () {
         document.querySelector(selectorError).innerHTML = '';
         return true;
     }
+    this.kiemTraDevA = function () {
+        console.log('123');
+    }
 
 }
 
