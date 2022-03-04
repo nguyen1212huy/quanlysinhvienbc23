@@ -8,4 +8,7 @@ function SinhVien() {
     this.diemToan = '';
     this.diemLy = '';
     this.diemHoa = '';
+    this,diemTrungBinh = function () {
+        console.log('diemTrungBinh',diemTrungBinh);
+    }
 }
