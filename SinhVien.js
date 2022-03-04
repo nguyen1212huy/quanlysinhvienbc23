@@ -9,6 +9,8 @@ function SinhVien() {
     this.diemLy = '';
     this.diemHoa = '';
     this.xepLoai = function () {
-        console.log('dev b code hàm xếp loại');
+        console.log('dev b code hàm xếp loại');}
+    this,diemTrungBinh = function () {
+        console.log('diemTrungBinh',diemTrungBinh);
     }
 }
